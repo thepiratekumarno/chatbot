@@ -26,5 +26,25 @@
   <footer>
     <p>&copy; 2025 My Simple Site</p>
   </footer>
+
+  <!-- PocketFlow Chatbot - Start -->
+<script>
+(function() {
+    var script = document.createElement("script");
+    script.src = "https://askthispage.com/embed/chatbot.js";
+    script.onload = function() {
+        initializeChatbot({
+            extra_urls: [],
+            prefixes: [],
+            chatbotName: 'Aibot',
+            wsUrl: 'wss://askthispage.com/api/ws/chat',
+            instruction: '',
+            isOpen: false
+        });
+    };
+    document.head.appendChild(script);
+})();
+</script>
+<!-- PocketFlow Chatbot - End -->
 </body>
 </html>
